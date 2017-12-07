@@ -107,7 +107,7 @@ namespace FILEDB
   /**
    * Return number of elements in the vector
    */
-  const int
+  int
   VFloatData::numberOfElements (void) const
   {
     return data_.size();

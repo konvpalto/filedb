@@ -80,13 +80,13 @@ namespace FILEDB
     /**
      * Return number of elements inside this vector
      */
-    const int numberOfElements (void) const;
+    int numberOfElements (void) const;
 
 
     /**
      * Get the serial id of this class
      */
-    const unsigned short serialID (void) const {return 0x6677;}
+    unsigned short serialID (void) const {return 0x6677;}
     
 
     /**
